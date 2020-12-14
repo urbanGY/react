@@ -1,0 +1,5 @@
+.ArticleContentBox {
+    padding: 29px 29px 0;
+    border: 1px solid var(--skinLayoutBorder);
+    border-radius: 6px;
+}

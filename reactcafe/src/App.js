@@ -1,25 +1,27 @@
-import logo from "./logo.svg";
+import React, { Component } from "react";
+import ArticleTopBtns from "./components/ArticleTopBtns/ArticleTopBtns";
+import ArticleContentBox from "./components/ArticleContentBox/ArticleContentBox";
+import ArticleBottomBtns from "./components/ArticleBottomBtns/ArticleBottomBtns";
+import RelatedArticles from "./components/RelatedArticles/RelatedArticles";
+import PopularArticles from "./components/PopularArticles/PopularArticles";
+import CafeJoinInducement from "./components/CafeJoinInducement/CafeJoinInducement";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div class="Article">
+        <div class="article_wrap">
+          <ArticleTopBtns />
+          <ArticleContentBox />
+          <ArticleBottomBtns />
+          <RelatedArticles />
+          <PopularArticles />
+          <CafeJoinInducement />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

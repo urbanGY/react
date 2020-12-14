@@ -1,0 +1,67 @@
+.ArticleBottomBtns {
+    padding-top: 14px;
+}
+
+.ArticleBottomBtns .left_area {
+    float: left;
+}
+
+.BaseButton.size_default:first-child {
+    margin-left: 0;
+}
+
+.BaseButton.size_default {
+    min-width: 46px;
+    height: 36px;
+    margin-left: 10px;
+    padding: 0 12px;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.BaseButton--skinGreen {
+    background: var(--skinBaseButtonPointBg);
+    color: var(--skinBaseButtonPointColor);
+}
+
+.BaseButton {
+    display: inline-block;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+}
+
+.BaseButton .svg-icon {
+    margin-right: 1px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.BaseButton .svg-icon.icon-solid-writing {
+    width: 13px;
+    height: 14px;
+    vertical-align: -3px;
+    color: var(--skinSvgIconSolidWriting);
+}
+
+.ArticleBottomBtns .right_area {
+    float: right;
+}
+
+.BaseButton .svg-icon.ico-post-top-323232 {
+    width: 5px;
+    height: 5px;
+    vertical-align: 2px;
+    color: var(--skinSvgIconPostTop);
+}
+
+.ArticleBottomBtns:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

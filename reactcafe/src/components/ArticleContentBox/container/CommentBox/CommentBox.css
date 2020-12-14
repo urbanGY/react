@@ -1,0 +1,411 @@
+.CommentBox {
+    margin-top: -17px;
+    border-top: 1px solid var(--skinLayoutBorder);
+}
+
+/* comment option */
+.CommentBox .comment_option {
+    position: relative;
+    padding-top: 16px;
+    margin-bottom: 11px;
+}
+
+.CommentBox .comment_option .comment_title {
+    float: left;
+    margin-top: 3px;
+    margin-right: 12px;
+    font-size: 17px;
+}
+
+.CommentBox .comment_option:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_list {
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_item:first-child {
+    margin-left: 0;
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_item {
+    float: left;
+    margin-left: 8px;
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_item .comment_tab_button[aria-selected=true] {
+    color: var(--skinTextColor);
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_item .comment_tab_button {
+    color: var(--skinTextb7b7b7);
+    font-weight: 700;
+}
+
+.CommentBox .comment_option .comment_tab .comment_tab_item .comment_tab_button {
+    color: var(--skinTextb7b7b7);
+    font-weight: 700;
+}
+
+.CommentBox a {
+    color: inherit;
+}
+
+.CommentBox .comment_option .comment_tab .comment_refresh_button {
+    display: inline-block;
+    position: relative;
+    width: 23px;
+    height: 23px;
+    margin-left: 8px;
+    background-image: var(--skinBgPostRefresh);
+    vertical-align: top;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+.CommentBox .comment_option .comment_tab .comment_refresh_button:before {
+    content: "";
+    border-radius: 50%;
+    border: 1px solid var(--skinCommentRefreshButtonBorder);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.CommentBox .comment_option .comment_alarm {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
+.SubscribeButton .subscribe_text {
+    display: inline-block;
+    height: 22px;
+    vertical-align: top;
+    margin-right: 8px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.CommentBox .comment_option:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.SubscribeButton .ToggleSwitch {
+    display: inline-block;
+    width: 36px;
+    vertical-align: top;
+}
+
+.SubscribeButton .ToggleSwitch .switch_slider {
+    position: relative;
+    display: block;
+    height: 22px;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 36px;
+    background-color: var(--skinToggleSwitchBg);
+    cursor: pointer;
+}
+
+.SubscribeButton .ToggleSwitch .switch_slider:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    transition: all .2s ease;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.CommentBox .comment_option .comment_alarm .ToggleSwitchTooltip {
+    top: 30px;
+    white-space: nowrap;
+}
+.ToggleSwitchTooltip {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.ToggleSwitchTooltip .tooltip {
+    font-size: 13px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 6px;
+    box-shadow: 0 1px 12px 0 rgba(0,0,0,.06);
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #000;
+}
+
+/* comment list block */
+
+.CommentBox .comment_list:last-child {
+    padding-bottom: 16px;
+}
+
+.CommentBox .comment_list .CommentItem:first-child {
+    border-top: 0;
+}
+
+.CommentBox .comment_list .CommentItem {
+    position: relative;
+    border-top: 1px solid var(--skinListBorder);
+}
+
+.CommentBox .comment_list .comment_area {
+    position: relative;
+    padding: 12px 23px 10px 0;
+}
+
+.CommentBox .comment_list .comment_thumb {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.CommentBox a {
+    color: inherit;
+}
+
+.CommentBox .comment_list .comment_thumb img {
+    border-radius: 50%;
+}
+
+img {
+    vertical-align: top;
+}
+fieldset, img {
+    border: 0;
+}
+
+.CommentBox .comment_list .comment_thumb:after {
+    content: "";
+    border: 1px solid var(--skinThumbBorder);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.CommentBox .comment_list .comment_box {
+    padding-left: 46px;
+}
+
+.CommentBox .comment_list .comment_nick_box {
+    margin-bottom: 4px;
+}
+
+.CommentBox .comment_list .comment_nick_box .comment_nick_info {
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.CommentBox .comment_list .comment_nick_box .comment_nickname {
+    font-weight: 700;
+}
+
+.CommentBox .comment_list .comment_text_box {
+    position: relative;
+    font-size: 13px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.CommentBox .comment_list .comment_text_box .comment_text_view {
+    overflow: hidden;
+}
+
+.CommentBox .comment_list .comment_text_box .text_comment {
+    line-height: 17px;
+    word-break: break-all;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.CommentBox .comment_list .comment_info_box {
+    margin-top: 7px;
+    font-size: 12px;
+    color: var(--skinText979797);
+}
+
+.CommentBox .comment_list .comment_info_box .comment_info_date {
+    margin-right: 8px;
+}
+
+.CommentBox .comment_list .comment_tool {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.CommentBox .comment_list .comment_tool .comment_tool_button {
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-align: right;
+}
+
+.CommentBox .comment_list .comment_tool .svg-icon {
+    width: 3px;
+    height: 15px;
+    color: var(--skinCommentWriterText);
+    vertical-align: top;
+}
+
+.CommentBox .comment_list .CommentItem.CommentItem--reply {
+    padding-left: 46px;
+}
+
+
+/* comment writer box */
+.CommentBox .comment_list+.CommentWriter {
+    margin-top: 10px;
+}
+
+.CommentWriter {
+    margin: 12px 0 29px;
+    padding: 16px 10px 10px 18px;
+    border: 2px solid var(--skinCommentWriterBorder);
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: var(--skinCommentWriterBg);
+}
+
+.CommentWriter .comment_inbox {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.CommentWriter .comment_inbox_name {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+address, em {
+    font-style: normal;
+}
+
+.CommentWriter .comment_inbox_text {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+    min-height: 17px;
+    padding-right: 1px;
+    border: 0;
+    font-size: 13px;
+    -webkit-appearance: none;
+    resize: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: var(--skinTextColor);
+    outline: 0;
+}
+
+.CommentWriter .comment_attach {
+    position: relative;
+}
+
+.CommentWriter .attach_box {
+    float: left;
+    padding-top: 10px;
+}
+
+.CommentWriter .attach_box .button_file {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 1px;
+    margin-right: 16px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.CommentWriter .attach_box .button_file .ico-post-photo-323232 {
+    width: 18px;
+}
+
+.CommentWriter .attach_box .svg-icon {
+    height: 17px;
+    vertical-align: top;
+}
+.CommentWriter .comment_attach .svg-icon {
+    color: var(--skinText323232);
+}
+
+.CommentWriter .attach_box .button_sticker {
+    display: inline-block;
+    vertical-align: top;
+}
+.CommentBox a {
+    color: inherit;
+}
+
+.CommentWriter .attach_box .button_sticker .ico-post-sticker-323232 {
+    width: 17px;
+}
+
+.CommentWriter .attach_box .svg-icon {
+    height: 17px;
+    vertical-align: top;
+}
+.CommentWriter .comment_attach .svg-icon {
+    color: var(--skinText323232);
+}
+
+.CommentWriter .register_box {
+    float: right;
+}
+
+.CommentWriter .register_box .button {
+    display: inline-block;
+    min-width: 46px;
+    height: 34px;
+    line-height: 36px;
+    font-size: 13px;
+    color: var(--skinCommentWriterText);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+}
+
+.CommentWriter .comment_attach:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+textarea {
+    font-weight: 400;
+}
+
+button, textarea {
+    font-family: Apple SD Gothic Neo,맑은 고딕,Malgun Gothic,돋움,dotum,sans-serif;
+}

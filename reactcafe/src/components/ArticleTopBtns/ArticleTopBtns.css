@@ -1,0 +1,67 @@
+.ArticleTopBtns {
+    padding: 0 0 14px;
+}
+
+.ArticleTopBtns .left_area {
+    float: left;
+}
+
+.BaseButton.size_default:first-child {
+    margin-left: 0;
+}
+
+.BaseButton.size_default {
+    min-width: 46px;
+    height: 36px;
+    margin-left: 10px;
+    padding: 0 12px;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+.BaseButton--skinGray {
+    border: 1px solid var(--skinBaseButtonDefaultBorder);
+    background: var(--skinBaseButtonDefaultBg);
+    color: var(--skinBaseButtonDefaultColor);
+}
+
+.BaseButton {
+    display: inline-block;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+}
+
+.ArticleTopBtns:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ArticleTopBtns .right_area {
+    float: right;
+}
+
+.BaseButton .svg-icon {
+    margin-right: 1px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.BaseButton .svg-icon.ico-post-btn-arrow-up-323232 {
+    width: 10px;
+    height: 6px;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    color: var(--skinSvgIconPostBtnArrowUp);
+}
+
+.BaseButton.btn_next .ico-post-btn-arrow-up-323232 {
+    transform: rotate(180deg);
+    margin-top: 0;
+}
+

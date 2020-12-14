@@ -1,0 +1,149 @@
+.PopularArticles {
+    margin: 30px 12px 0;
+}
+
+.PopularArticles .PopularCafeList {
+    position: relative;
+}
+
+.PopularArticles .PopularCafeList .box_tit {
+    font-size: 17px;
+}
+
+.PopularArticles .PopularCafeList .popular_list {
+    overflow: hidden;
+    margin-top: 6px;
+    margin-left: -28px;
+}
+
+.PopularArticles .PopularCafeList .popular_list .list_item:nth-child(-n+3) {
+    border-top: 0;
+}
+
+.PopularArticles .PopularCafeList .popular_list .list_item {
+    float: left;
+    width: 260px;
+    height: 54px;
+    margin-left: 28px;
+    padding: 14px 0;
+    border-top: solid 1px var(--skinListBorder);
+    font-size: 13px;
+}
+
+.PopularArticles .PopularCafeList .popular_list .link {
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 54px;
+    color: var(--skinTextColor);
+}
+
+.PopularArticles .PopularCafeList .popular_list .thumb {
+    overflow: hidden;
+    position: relative;
+    -ms-flex: none;
+    flex: none;
+    width: 74px;
+    height: 54px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.PopularArticles .PopularCafeList .popular_list .thumb img {
+    margin-top: -10px;
+    border-radius: 6px;
+}
+img {
+    vertical-align: top;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.PopularArticles .PopularCafeList .popular_list .thumb:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid var(--skinThumbBorder);
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 0;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box .title {
+    max-height: 34px;
+    font-size: 13px;
+    word-break: break-all;
+    word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 400;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box .post_info {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box .post_info .cafe_member {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    color: var(--skinText979797);
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box .post_info .no_comment, .PopularArticles .PopularCafeList .popular_list .post_box .post_info .no_like {
+    -ms-flex: none;
+    flex: none;
+    margin-left: 9px;
+    white-space: nowrap;
+    color: var(--skinText979797);
+}
+
+.PopularArticles .PopularCafeList .popular_list .post_box .post_info .svg-icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    vertical-align: -2px;
+    color: var(--skinText979797);
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+
+
+
+
+

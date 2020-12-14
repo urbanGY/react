@@ -1,0 +1,221 @@
+.ArticleContentBox .article_header {
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--skinLayoutBorder);
+}
+
+.ArticleTitle {
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.ArticleTitle .link_board {
+    color: #03c75a;
+}
+
+.ArticleTitle a {
+    color: inherit;
+}
+
+.ArticleTitle .link_board .svg-icon {
+    width: 5px;
+    height: 10px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.ArticleTitle .title_area {
+    margin-top: 7px;
+}
+
+.ArticleTitle .title_area .title_text {
+    font-weight: 400;
+    font-size: 26px;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.ArticleTitle .title_area:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.WriterInfo .thumb {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+}
+
+.WriterInfo a {
+    color: inherit;
+}
+
+.WriterInfo .thumb img {
+    border-radius: 50%;
+}
+img {
+    vertical-align: top;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.WriterInfo .thumb:after {
+    content: "";
+    border: 1px solid var(--skinThumbBorder);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.WriterInfo .profile_area {
+    float: left;
+}
+
+.WriterInfo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.WriterInfo .profile_info {
+    margin-bottom: 6px;
+}
+
+.WriterInfo .profile_info .nick_box {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.WriterInfo .profile_info .nick_box .nickname {
+    margin-right: 6px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.WriterInfo .profile_info .nick_level {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 13px;
+    vertical-align: top;
+    color: var(--skinText676767);
+}
+
+address, em {
+    font-style: normal;
+}
+
+.WriterInfo .profile_info .link_talk {
+    display: inline-block;
+    min-width: 51px;
+    height: 20px;
+    margin-top: -3px;
+    line-height: 21px;
+    font-size: 11px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+    background: #eff0f2;
+    color: #000;
+}
+
+.WriterInfo .profile_info .nick_level .icon_level {
+    display: inline-block;
+    margin-top: 1px;
+    margin-left: -1px;
+    vertical-align: top;
+}
+
+.WriterInfo .article_info {
+    font-size: 12px;
+    line-height: 13px;
+    color: var(--skinText979797);
+}
+
+.WriterInfo .article_info .date {
+    margin-right: 8px;
+}
+
+.WriterInfo .article_info {
+    font-size: 12px;
+    line-height: 13px;
+    color: var(--skinText979797);
+}
+
+.WriterInfo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.ArticleTool {
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.ArticleTool .button_comment {
+    display: inline-block;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+.ArticleTool .button_comment .svg-icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 6px;
+    vertical-align: top;
+    color: var(--skinText323232);
+}
+
+.ArticleTool .button_comment .num {
+    margin-left: 1px;
+    font-family: arial,sans-serif;
+}
+
+.ArticleTool .button_url, .ArticleTool .more_area {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ArticleTool .more_area {
+    position: relative;
+    margin-left: 3px;
+}
+.ArticleTool .button_url, .ArticleTool .more_area {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ArticleTool .button_more {
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-align: right;
+}
+
+.ArticleTool .button_more .svg-icon {
+    width: 3px;
+    height: 15px;
+    color: var(--skinText979797);
+}
+
+.ArticleTool a {
+    color: inherit;
+}
