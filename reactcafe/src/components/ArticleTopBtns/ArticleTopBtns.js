@@ -2,15 +2,22 @@
 import React, { Component } from "react";
 import "./ArticleTopBtns.css";
 
+import { addValue } from "../../action/add.js";
+import { connect } from "react-redux";
+
 class ArticleTopBtns extends Component {
   render() {
+    console.log(this.props);
+    const { onClickVal } = this.props;
+    console.log(onClickVal);
     return (
       <div class="ArticleTopBtns">
         <div class="left_area">
           <a
-            href="#"
+            href="#1"
             role="button"
             class="BaseButton BaseButton--skinGray size_default"
+            onClick={() => onClickVal(10)}
           >
             <span class="BaseButton__txt">수정</span>
           </a>
@@ -86,4 +93,19 @@ class ArticleTopBtns extends Component {
   }
 }
 
-export default ArticleTopBtns;
+// const mapToDispatch = (dispatch) => ({
+//   onClickVal: (data) => {
+//     console.log("click!");
+//     dispatch(addValue(data));
+//   },
+// });
+
+const mapToDispatch = (dispatch) => {
+  return {
+    onClickVal(data) {
+      dispatch(addValue(data));
+    },
+  };
+};
+
+export default connect(null, mapToDispatch)(ArticleTopBtns);
